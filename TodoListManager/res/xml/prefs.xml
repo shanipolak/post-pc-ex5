@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="Settings">
+         <EditTextPreference android:title="Twitter hashtag"
+                android:inputType="text"
+                android:summary="Insert your Twitter hashtag"
+                android:key="tag"
+                android:persistent="true"
+                android:defaultValue="#todoapp">
+             
+         </EditTextPreference>
+                
+   
+ </PreferenceScreen> 
+    
